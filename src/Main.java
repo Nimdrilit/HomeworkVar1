@@ -17,5 +17,11 @@ public class Main {
     System.out.println(cat);
     var paper = paper + 4;
     System.out.println(paper);
+    var dog = dog - 3.5;
+    System.out.println(dog);
+    var cat = cat - 1.6;
+    System.out.println(cat);
+    var paper = paper - 7639;
+    System.out.println(paper);
 
 }
