@@ -40,4 +40,6 @@ public class Main {
     System.out.println("Общий вес " + totalWeight + "кг!");
     var weightDifference = weightBoxer2 - weightBoxer1;
     System.out.println("Разница в весе между бойцами " + weightDifference + "кг!");
+    var reminderFromDivision = weightBoxer2 % weightBoxer1;
+    System.out.println("Остаток от деления между двумя весами составляет " + reminderFromDivision + "кг!");
 }
