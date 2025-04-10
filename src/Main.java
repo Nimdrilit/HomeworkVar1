@@ -42,4 +42,20 @@ public class Main {
     System.out.println("Разница в весе между бойцами " + weightDifference + "кг!");
     var reminderFromDivision = weightBoxer2 % weightBoxer1;
     System.out.println("Остаток от деления между двумя весами составляет " + reminderFromDivision + "кг!");
+    var totalWorkingTime;
+    var totalWorkingTime = 640;
+    System.out.println(totalWorkingTime);
+    var oneEmploerkingTime;
+    var oneEmploerkingTime = 8;
+    System.out.println(oneEmploerkingTime);
+    var totalNumOfEmploers;
+    var totalNumOfEmploers = totalWorkingTime / oneEmploerkingTime;
+    System.out.println("Всего работников в компании — " + totalNumOfEmploers + "человек!");
+    var moreEmploers;
+    var moreEmploers = totalNumOfEmploers + 94;
+    System.out.println("C увеличением количества работников в компании работает — " + moreEmploers + "человек!");
+    var newWorkingTime;
+    var newWorkingTime = moreEmploers * 8;
+    System.out.println("Если в компании работает " + newWorkingTime + "человек, то всего " + newWorkingTime + "часов работы может быть поделено между сотрудниками.");
+
 }
