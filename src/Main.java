@@ -35,9 +35,9 @@ public class Main {
         var reminderFromDivision = weightBoxer2 % weightBoxer1;
         System.out.println("Остаток от деления между двумя весами составляет " + reminderFromDivision + "кг!");
         var totalWorkingTime = 640;
-        System.out.println(totalWorkingTime);
+        System.out.println(totalWorkingTime + " - общие рабочие часы всех сотрудников.");
         var oneEmploerkingTime = 8;
-        System.out.println(oneEmploerkingTime);
+        System.out.println(oneEmploerkingTime + "- рабочие часы 1 сотрудника.");
         var totalNumOfEmploers = totalWorkingTime / oneEmploerkingTime;
         System.out.println("Всего работников в компании — " + totalNumOfEmploers + "человек!");
         var moreEmploers = totalNumOfEmploers + 94;
